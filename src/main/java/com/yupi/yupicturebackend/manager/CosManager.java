@@ -22,7 +22,7 @@ public class CosManager {
     /**
      * 上传对象
      *
-     * @param key  唯一键
+     * @param key  唯一键，文件存到哪里
      * @param file 文件
      */
     public PutObjectResult putObject(String key, File file) {
